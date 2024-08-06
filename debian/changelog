@@ -1,5 +1,24 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-openai (1.35.12-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.35.12
+  * control: add missing Build-Depends.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mo Zhou <lumin@debian.org>  Sun, 14 Jul 2024 00:28:49 -0400
+
+python-openai (1.12.0-1) unstable; urgency=medium
+
+  * New upstream version 1.12.0
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 15 Feb 2024 14:17:31 -0500
+
+python-openai (1.6.1-2) unstable; urgency=medium
+
+  * Source-only upload to unblock migration.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 06 Jan 2024 15:10:19 -0500
+
+python-openai (1.6.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1060034)
+
+ -- Mo Zhou <lumin@debian.org>  Fri, 05 Jan 2024 12:42:21 -0500
