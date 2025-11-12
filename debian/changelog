@@ -1,5 +1,58 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-openai (1.61.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.61.0
+  * Specify Rules-Requires-Root as no.
+  * Fix file permissions for installed examples.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mo Zhou <lumin@debian.org>  Mon, 03 Feb 2025 21:54:08 -0500
+
+python-openai (1.59.6-1) unstable; urgency=medium
+
+  * New upstream version 1.59.6
+  * Install example python scripts.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 11 Jan 2025 10:16:41 -0500
+
+python-openai (1.57.4-1) unstable; urgency=medium
+
+  * New upstream version 1.57.4
+
+ -- Mo Zhou <lumin@debian.org>  Sun, 15 Dec 2024 09:33:59 -0500
+
+python-openai (1.51.0-2) unstable; urgency=medium
+
+  * Patch to replace jiter with pydantic_core.
+
+ -- Mo Zhou <lumin@debian.org>  Tue, 08 Oct 2024 00:34:47 -0400
+
+python-openai (1.51.0-1) unstable; urgency=medium
+
+  * New upstream version 1.51.0
+  * d/copyright: Exclude .inline-snapshot/* from upstream tarball.
+
+ -- Mo Zhou <lumin@debian.org>  Wed, 02 Oct 2024 02:23:56 -0400
+
+python-openai (1.35.12-1) unstable; urgency=medium
+
+  * New upstream version 1.35.12
+  * control: add missing Build-Depends.
+
+ -- Mo Zhou <lumin@debian.org>  Sun, 14 Jul 2024 00:28:49 -0400
+
+python-openai (1.12.0-1) unstable; urgency=medium
+
+  * New upstream version 1.12.0
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 15 Feb 2024 14:17:31 -0500
+
+python-openai (1.6.1-2) unstable; urgency=medium
+
+  * Source-only upload to unblock migration.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 06 Jan 2024 15:10:19 -0500
+
+python-openai (1.6.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1060034)
+
+ -- Mo Zhou <lumin@debian.org>  Fri, 05 Jan 2024 12:42:21 -0500

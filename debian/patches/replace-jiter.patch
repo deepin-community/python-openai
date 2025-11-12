@@ -1,0 +1,16 @@
+Description: replace jiter with pydantic_core to avoid more dependency
+Forward: do not forward
+Reference: https://github.com/openai/openai-python/issues/1616
+Index: python-openai/src/openai/lib/streaming/chat/_completions.py
+===================================================================
+--- python-openai.orig/src/openai/lib/streaming/chat/_completions.py	2024-10-07 05:34:07.337885792 +0000
++++ python-openai/src/openai/lib/streaming/chat/_completions.py	2024-10-07 05:34:07.273887749 +0000
+@@ -5,7 +5,7 @@
+ from typing import TYPE_CHECKING, Any, Generic, Callable, Iterable, Awaitable, AsyncIterator, cast
+ from typing_extensions import Self, Iterator, assert_never
+ 
+-from jiter import from_json
++from pydantic_core import from_json
+ 
+ from ._types import ParsedChoiceSnapshot, ParsedChatCompletionSnapshot, ParsedChatCompletionMessageSnapshot
+ from ._events import (
